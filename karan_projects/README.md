@@ -3,41 +3,21 @@ Mega Project List
 
 A list of practical projects that anyone can solve in any programming language (See [solutions](https://github.com/thekarangoel/Projects-Solutions)). These projects are divided in multiple categories, and each category has its own folder.
 
-To get started, simply fork this repo.
-
-## [CONTRIBUTING](https://github.com/thekarangoel/Projects/blob/master/CONTRIBUTING.md)
-
-See ways of [contributing](https://github.com/thekarangoel/Projects/blob/master/CONTRIBUTING.md) to this repo. You can contribute **solutions** (will be published in this [repo](https://github.com/thekarangoel/Projects-Solutions)) to existing problems, **add new projects** or remove existing ones. Make sure you follow all instructions properly.
-
-
-## [Solutions](https://github.com/thekarangoel/Projects-Solutions)
-
-You can find implementations of these projects in many other languages by other users in [this repo](https://github.com/thekarangoel/Projects-Solutions).
-
-## Credits
-
-This repo was compiled by [Karan Goel](http://twitter.com/karangoel).
-
-Problems are motivated by the ones shared at:
-
-* [Martyr2’s Mega Project List](http://www.dreamincode.net/forums/topic/78802-martyr2s-mega-project-ideas-list/)
-* [Rosetta Code](http://rosettacode.org/)
-
 ## Table of Contents
 
-- [Numbers](https://github.com/karan/Projects#numbers)
-- [Classic Algorithms](https://github.com/karan/Projects#classic-algorithms)
-- [Graph](https://github.com/karan/Projects#graph)
-- [Data Structures](https://github.com/karan/Projects#data-structures)
-- [Text](https://github.com/karan/Projects#text)
-- [Networking](https://github.com/karan/Projects#networking)
-- [Classes](https://github.com/karan/Projects#classes)
-- [Threading](https://github.com/karan/Projects#threading)
-- [Web](https://github.com/karan/Projects#web)
-- [Files](https://github.com/karan/Projects#files)
-- [Databases](https://github.com/karan/Projects#databases)
-- [Graphics and Multimedia](https://github.com/karan/Projects#graphics-and-multimedia)
-- [Security](https://github.com/karan/Projects#security)
+- [Numbers](https://github.com/KondratyonokNikita/hello-world/tree/master/karan_projects#numbers)
+- [Classic Algorithms](https://github.com/KondratyonokNikita/hello-world/tree/master/karan_projects#classic-algorithms)
+- [Graph](https://github.com/KondratyonokNikita/hello-world/tree/master/karan_projects#graph)
+- [Data Structures](https://github.com/KondratyonokNikita/hello-world/tree/master/karan_projects#data-structures)
+- [Text](https://github.com/KondratyonokNikita/hello-world/tree/master/karan_projects#text)
+- [Networking](https://github.com/KondratyonokNikita/hello-world/tree/master/karan_projects#networking)
+- [Classes](https://github.com/KondratyonokNikita/hello-world/tree/master/karan_projects#classes)
+- [Threading](https://github.com/KondratyonokNikita/hello-world/tree/master/karan_projects#threading)
+- [Web](https://github.com/KondratyonokNikita/hello-world/tree/master/karan_projects#web)
+- [Files](https://github.com/KondratyonokNikita/hello-world/tree/master/karan_projects#files)
+- [Databases](https://github.com/KondratyonokNikita/hello-world/tree/master/karan_projects#databases)
+- [Graphics and Multimedia](https://github.com/KondratyonokNikita/hello-world/tree/master/karan_projects#graphics-and-multimedia)
+- [Security](https://github.com/KondratyonokNikita/hello-world/tree/master/karan_projects#security)
 
 Numbers
 ---------
@@ -274,3 +254,25 @@ Security
 -------------
 
 **Caesar cipher** - Implement a Caesar cipher, both encoding and decoding. The key is an integer from 1 to 25. This cipher rotates the letters of the alphabet (A to Z). The encoding replaces each letter with the 1st to 25th next letter in the alphabet (wrapping Z to A). So key 2 encrypts "HI" to "JK", but key 20 encrypts "HI" to "BC". This simple "monoalphabetic substitution cipher" provides almost no security, because an attacker who has the encoded message can either use frequency analysis to guess the key, or just try all 25 keys.
+
+## CONTRIBUTING
+
+Please **do not send pull requests for replacing my code**. If you'd like to contribute [solutions](https://github.com/thekarangoel/Projects-Solutions), please see the following instructions:
+
+- Solve the problem, and keep it in your repo. DO NOT send merge request yet.
+
+- Find the problem in this [README](https://github.com/thekarangoel/Projects-Solutions/blob/master/README.md) file.
+
+- Edit the file in this format (notice the double square brackets):
+
+    \**This is a problem** - And here goes it's description. \[[octocat (language)]]\(link-to-octocats-solution) \[[your_username (C++)]]\(link-to-your-solution)
+    
+    This results in something like this:
+    
+    **This is a problem** - And here goes it's description. [[octocat (language)]](link-to-octocats-solution) [[your_username (C++)]](link-to-your-solution)
+
+- Please respect other people and do not delete or move anyone else's link. Place your solution at the end of the list of solutions.
+
+- Save/Commit the README.md file.
+
+- Send a pull request for this commit ONLY - ie, the commit to the [solutions repo](https://github.com/thekarangoel/Projects-Solutions)!
